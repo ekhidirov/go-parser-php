@@ -21,13 +21,6 @@ Features
 - Parsing syntax-invalid PHP files
 - Saving and printing free-floating comments and whitespaces
 
-Who Uses
---------
-
-- [VKCOM/noverify](https://github.com/VKCOM/noverify) — pretty fast linter for PHP
-- [VKCOM/nocolor](https://github.com/VKCOM/nocolor) — architecture validation tool for PHP based on the [*concept of colored functions*](https://github.com/VKCOM/nocolor/blob/master/docs/introducing_colors.md)
-- [quasilyte/phpgrep](https://github.com/quasilyte/phpgrep) — tool for syntax-aware PHP code search
-
 Usage example
 -------
 
@@ -38,11 +31,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/ekhdirov/go-parser-php/pkg/conf"
-	"github.com/ekhdirov/go-parser-php/pkg/errors"
-	"github.com/ekhdirov/go-parser-php/pkg/parser"
-	"github.com/ekhdirov/go-parser-php/pkg/version"
-	"github.com/ekhdirov/go-parser-php/pkg/visitor/dumper"
+	"github.com/ekhidirov/go-parser-php/pkg/conf"
+	"github.com/ekhidirov/go-parser-php/pkg/errors"
+	"github.com/ekhidirov/go-parser-php/pkg/parser"
+	"github.com/ekhidirov/go-parser-php/pkg/version"
+	"github.com/ekhidirov/go-parser-php/pkg/visitor/dumper"
 )
 
 func main() {
