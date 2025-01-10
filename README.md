@@ -38,11 +38,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/VKCOM/php-parser/pkg/conf"
-	"github.com/VKCOM/php-parser/pkg/errors"
-	"github.com/VKCOM/php-parser/pkg/parser"
-	"github.com/VKCOM/php-parser/pkg/version"
-	"github.com/VKCOM/php-parser/pkg/visitor/dumper"
+	"github.com/ekhdirov/go-parser-php/pkg/conf"
+	"github.com/ekhdirov/go-parser-php/pkg/errors"
+	"github.com/ekhdirov/go-parser-php/pkg/parser"
+	"github.com/ekhdirov/go-parser-php/pkg/version"
+	"github.com/ekhdirov/go-parser-php/pkg/visitor/dumper"
 )
 
 func main() {
@@ -87,7 +87,7 @@ Install
 -------
 
 ```
-go get github.com/VKCOM/php-parser/cmd/php-parser
+go get github.com/ekhidirov/go-parser-php/cmd/php-parser
 ```
 
 CLI
