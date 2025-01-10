@@ -2,12 +2,12 @@ package dumper_test
 
 import (
 	"bytes"
-	"github.com/VKCOM/php-parser/pkg/position"
-	"github.com/VKCOM/php-parser/pkg/token"
-	"github.com/VKCOM/php-parser/pkg/visitor/dumper"
+	"github.com/ekhidirov/go-parser-php/pkg/position"
+	"github.com/ekhidirov/go-parser-php/pkg/token"
+	"github.com/ekhidirov/go-parser-php/pkg/visitor/dumper"
 	"testing"
 
-	"github.com/VKCOM/php-parser/pkg/ast"
+	"github.com/ekhidirov/go-parser-php/pkg/ast"
 )
 
 func TestDumper_root(t *testing.T) {

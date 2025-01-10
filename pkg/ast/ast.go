@@ -1,6 +1,6 @@
 package ast
 
-import "github.com/VKCOM/php-parser/pkg/position"
+import "github.com/ekhidirov/go-parser-php/pkg/position"
 
 type Vertex interface {
 	Accept(v Visitor)

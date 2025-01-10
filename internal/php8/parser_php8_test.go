@@ -3,14 +3,14 @@ package php8_test
 import (
 	"testing"
 
-	"github.com/VKCOM/php-parser/internal/tester"
-	"github.com/VKCOM/php-parser/pkg/ast"
-	"github.com/VKCOM/php-parser/pkg/conf"
-	"github.com/VKCOM/php-parser/pkg/errors"
-	"github.com/VKCOM/php-parser/pkg/parser"
-	"github.com/VKCOM/php-parser/pkg/position"
-	"github.com/VKCOM/php-parser/pkg/token"
-	"github.com/VKCOM/php-parser/pkg/version"
+	"github.com/ekhidirov/go-parser-php/internal/tester"
+	"github.com/ekhidirov/go-parser-php/pkg/ast"
+	"github.com/ekhidirov/go-parser-php/pkg/conf"
+	"github.com/ekhidirov/go-parser-php/pkg/errors"
+	"github.com/ekhidirov/go-parser-php/pkg/parser"
+	"github.com/ekhidirov/go-parser-php/pkg/position"
+	"github.com/ekhidirov/go-parser-php/pkg/token"
+	"github.com/ekhidirov/go-parser-php/pkg/version"
 	"gotest.tools/assert"
 )
 

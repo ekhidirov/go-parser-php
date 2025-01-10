@@ -17,15 +17,15 @@ import (
 	"github.com/pkg/profile"
 	"github.com/yookoala/realpath"
 
-	"github.com/VKCOM/php-parser/pkg/ast"
-	"github.com/VKCOM/php-parser/pkg/conf"
-	"github.com/VKCOM/php-parser/pkg/errors"
-	"github.com/VKCOM/php-parser/pkg/parser"
-	"github.com/VKCOM/php-parser/pkg/version"
-	"github.com/VKCOM/php-parser/pkg/visitor/dumper"
-	"github.com/VKCOM/php-parser/pkg/visitor/nsresolver"
-	"github.com/VKCOM/php-parser/pkg/visitor/printer"
-	"github.com/VKCOM/php-parser/pkg/visitor/traverser"
+	"github.com/ekhidirov/go-parser-php/pkg/ast"
+	"github.com/ekhidirov/go-parser-php/pkg/conf"
+	"github.com/ekhidirov/go-parser-php/pkg/errors"
+	"github.com/ekhidirov/go-parser-php/pkg/parser"
+	"github.com/ekhidirov/go-parser-php/pkg/version"
+	"github.com/ekhidirov/go-parser-php/pkg/visitor/dumper"
+	"github.com/ekhidirov/go-parser-php/pkg/visitor/nsresolver"
+	"github.com/ekhidirov/go-parser-php/pkg/visitor/printer"
+	"github.com/ekhidirov/go-parser-php/pkg/visitor/traverser"
 )
 
 var wg sync.WaitGroup

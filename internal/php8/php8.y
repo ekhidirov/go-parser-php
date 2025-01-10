@@ -4,8 +4,8 @@ package php8
 import (
     "strconv"
 
-    "github.com/VKCOM/php-parser/pkg/ast"
-    "github.com/VKCOM/php-parser/pkg/token"
+    "github.com/ekhidirov/go-parser-php/pkg/ast"
+    "github.com/ekhidirov/go-parser-php/pkg/token"
 )
 
 %}

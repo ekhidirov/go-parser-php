@@ -3,13 +3,13 @@ package parser
 import (
 	"errors"
 
-	"github.com/VKCOM/php-parser/internal/php5"
-	"github.com/VKCOM/php-parser/internal/php7"
-	"github.com/VKCOM/php-parser/internal/php8"
-	"github.com/VKCOM/php-parser/internal/scanner"
-	"github.com/VKCOM/php-parser/pkg/ast"
-	"github.com/VKCOM/php-parser/pkg/conf"
-	"github.com/VKCOM/php-parser/pkg/version"
+	"github.com/ekhidirov/go-parser-php/internal/php5"
+	"github.com/ekhidirov/go-parser-php/internal/php7"
+	"github.com/ekhidirov/go-parser-php/internal/php8"
+	"github.com/ekhidirov/go-parser-php/internal/scanner"
+	"github.com/ekhidirov/go-parser-php/pkg/ast"
+	"github.com/ekhidirov/go-parser-php/pkg/conf"
+	"github.com/ekhidirov/go-parser-php/pkg/version"
 )
 
 var (

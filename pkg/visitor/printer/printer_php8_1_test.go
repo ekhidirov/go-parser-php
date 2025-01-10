@@ -3,7 +3,7 @@ package printer_test
 import (
 	"testing"
 
-	"github.com/VKCOM/php-parser/internal/tester"
+	"github.com/ekhidirov/go-parser-php/internal/tester"
 )
 
 func TestParseAndPrintReadonlyModifierPHP81(t *testing.T) {

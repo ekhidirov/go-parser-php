@@ -3,11 +3,11 @@ package tester
 import (
 	"testing"
 
-	"github.com/VKCOM/php-parser/internal/php8"
-	"github.com/VKCOM/php-parser/internal/scanner"
-	"github.com/VKCOM/php-parser/pkg/conf"
-	"github.com/VKCOM/php-parser/pkg/token"
-	"github.com/VKCOM/php-parser/pkg/version"
+	"github.com/ekhidirov/go-parser-php/internal/php8"
+	"github.com/ekhidirov/go-parser-php/internal/scanner"
+	"github.com/ekhidirov/go-parser-php/pkg/conf"
+	"github.com/ekhidirov/go-parser-php/pkg/token"
+	"github.com/ekhidirov/go-parser-php/pkg/version"
 	"gotest.tools/assert"
 )
 

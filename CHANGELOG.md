@@ -6,27 +6,27 @@ All notable changes to this project will be documented in this file, in reverse 
 
 ### Added
 
-- [#28](https://github.com/VKCOM/php-parser/pull/28): `php8.2`: added readonly classes support
-- [#29](https://github.com/VKCOM/php-parser/pull/29): `php8.1`: added intersection types support
+- [#28](https://github.com/ekhidirov/go-parser-php/pull/28): `php8.2`: added readonly classes support
+- [#29](https://github.com/ekhidirov/go-parser-php/pull/29): `php8.1`: added intersection types support
 
 ## `v0.8.1-rc.1` 2021-09-08
 
 ### Added
 
-- [#6](https://github.com/VKCOM/php-parser/pull/6): `php8.1`: added `readonly` modifier
-- [#8](https://github.com/VKCOM/php-parser/pull/8): `php8.1`: added `never` type
-- [#10](https://github.com/VKCOM/php-parser/pull/10): `php8.1`: added new octal numbers syntax
-- [#12](https://github.com/VKCOM/php-parser/pull/12): `php8.1`: added enums
-- [#15](https://github.com/VKCOM/php-parser/pull/15): `php8.1`: added `final` modifier for constants in class
-- [#18](https://github.com/VKCOM/php-parser/pull/18): `php8.1`: added first class callable syntax
+- [#6](https://github.com/ekhidirov/go-parser-php/pull/6): `php8.1`: added `readonly` modifier
+- [#8](https://github.com/ekhidirov/go-parser-php/pull/8): `php8.1`: added `never` type
+- [#10](https://github.com/ekhidirov/go-parser-php/pull/10): `php8.1`: added new octal numbers syntax
+- [#12](https://github.com/ekhidirov/go-parser-php/pull/12): `php8.1`: added enums
+- [#15](https://github.com/ekhidirov/go-parser-php/pull/15): `php8.1`: added `final` modifier for constants in class
+- [#18](https://github.com/ekhidirov/go-parser-php/pull/18): `php8.1`: added first class callable syntax
 
 ### Changed
 
-- [`4cd50d`](https://github.com/VKCOM/php-parser/commit/85b5d3ef36c9b12923404caf1c57497aa84cd50d): `cmd`: added file path output before errors
+- [`4cd50d`](https://github.com/ekhidirov/go-parser-php/commit/85b5d3ef36c9b12923404caf1c57497aa84cd50d): `cmd`: added file path output before errors
 
 ### Fixed
 
-- [#22](https://github.com/VKCOM/php-parser/pull/22): fixed bug with `#` comments
+- [#22](https://github.com/ekhidirov/go-parser-php/pull/22): fixed bug with `#` comments
 
 ## `v0.8.0-rc.2` 2021-30-07
 

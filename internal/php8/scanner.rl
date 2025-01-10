@@ -5,7 +5,7 @@ import (
     "strconv"
     "strings"
 
-    "github.com/VKCOM/php-parser/pkg/token"
+    "github.com/ekhidirov/go-parser-php/pkg/token"
 )
 
 %%{ 
